@@ -1,1 +1,53 @@
 /*  your css code here. If applicable */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+ 
+p {
+  margin-bottom: 100px;
+  font-size: 30px;
+}
+ 
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+label {
+  font-size: 25px;
+  padding: 5px;
+}
+ 
+input {
+  padding: 10px;
+  border: 1px solid #838383;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+ 
+#submit {
+  padding: 10px 20px;
+  font-size: 20px;
+}
+ 
+#submit:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+ 
+ 
